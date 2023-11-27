@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #343A40;
+    height: 76px;
+    width: 100%;
+
+    .homeListMain {
+        width: 80%;
+        height: 100%;
+
+        .homeList {
+            width: 70%;
+            height: 100%;
+
+            .homeListUl {
+                width: 42%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+
+                .homeListLi {
+                    position: relative;
+
+                    i {
+                        color: #adb6c1;
+                        font-size: 12px;
+                    }
+
+                    a {
+                        font-size: 16px;
+                        line-height: 37px;
+                        font-family: poppins;
+                        color: #ADB6C1;
+
+                       
+                    }
+
+                    .hostingDropdown {
+                        display: none;
+
+                        ul {
+                            list-style: none;
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                            font-size: 18px;
+
+                            li {
+                                cursor: pointer;
+
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            .btnAll {
+                gap: 5px;
+                width: 20%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+
+                .register {
+                    background-color: #343A40;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 0;
+                    height: 76%;
+                    width: 48%;
+                    color: white;
+                    border: 2px solid #7CBD1E;
+                    font-size: 16px;
+                    line-height: 37px;
+                    font-family: poppins;
+
+                    
+
+                }
+
+                .login {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 0;
+                    height: 75%;
+                    width: 40%;
+                    background-color: #7CBD1E;
+                    color: white;
+                    border: none;
+                    font-size: 16px;
+                    line-height: 37px;
+                    font-family: poppins;
+
+                }
+
+            }
+        }
+
+    }
+}
+
+#customerSupport {
+    background-image: url(/assets/images/hero_bg_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .customerSupportTxt {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        min-width: 100%;
+        height: 300px;
+
+        h1 {
+            height: 50%;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(255, 255, 255);
+            font-size: 78px;
+            font-family: sans-serif;
+        }
+
+        .customerSupportBtn {
+            width: 40%;
+            min-height: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+
+            .getIn {
+                background-color: transparent;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 0;
+                height: 85%;
+                width: 42%;
+                color: white;
+                border: 1px solid white;
+                font-size: 16px;
+                line-height: 37px;
+                font-family: poppins;
+
+
+            }
+
+            .Download {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 0;
+                height: 85%;
+                width: 40%;
+                background-color: #7CBD1E;
+                color: white;
+                border: none;
+                font-size: 16px;
+                line-height: 37px;
+                font-family: poppins;
+            }
+        }
+    }
+}
+
+#differentHosting {
+    width: 100%;
+    min-height: 712px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F9FA;
+
+    .differentHosting {
+        height: 150px;
+        display: flex;
+        justify-content: center;
+
+        h2 {
+            width: 50%;
+            text-align: center;
+        }
+    }
+
+    .sharedHosting {
+        border: 1px solid #eceeef;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 355px;
+        background-color: white;
+
+        i {
+            font-size: 70px;
+            color: #7CBD1E;
+        }
+
+        h3 {
+            font-family: inherit;
+            font-weight: 500;
+            color: inherit;
+        }
+
+        p {
+            color: #ADB5BD;
+            font-family: inherit;
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0;
+            height: 13%;
+            width: 40%;
+            background-color: #7CBD1E;
+            color: white;
+            border: none;
+            font-size: 16px;
+            line-height: 37px;
+            font-family: poppins;
+            font-family: inherit;
+
+        }
+    }
+}
+
+#satisfiedClients {
+    width: 100%;
+    min-height: 600px;
+    background-image: url(/assets/images/hero_bg_3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+
+    .satisfiedClientsTxt {
+        width: 60%;
+        height: 100%;
+
+
+        h1 {
+            font-size: 80px;
+            line-height: 96px;
+            font-weight: 400;
+            color: white;
+        }
+
+        p {
+            font-size: 23px;
+            line-height: 36px;
+            font-weight: 400;
+            color: white;
+            height: 30%;
+            width: 80%;
+
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0;
+            height: 27%;
+            width: 27%;
+            background-color: #7CBD1E;
+            color: white;
+            border: none;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+        }
+    }
+}
+
+#WhyChooseUs {
+    width: 100%;
+    min-height: 857px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .WhyChooseUsTxt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 140px;
+        width: 100%;
+
+        h2 {
+            font-size: 32px;
+            line-height: 38px;
+            font-weight: 400;
+            font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            // font-weight: 500;
+            color: #4d4d4d;
+        }
+    }
+
+    .qualityHardware {
+        border: 2px solid #E6E6E6;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+        
+
+        .qualityHardwareTxt {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+
+            h2 {
+                width: 50%;
+                font-size: 20px;
+                line-height: 24px;
+                font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                color: #4d4d4d;
+
+            }
+
+            i {
+                font-size: 35px;
+            }
+        }
+
+        p {
+            color: #b3b3b3;
+            width: 98%;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+        }
+    }
+
+}
+
+#testimonials {
+    width: 100%;
+    background-color: #F8F9FA;
+    min-height: 634px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .testimonialsTxt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+
+
+        img {
+            border-radius: 50%;
+            width: 90px;
+            height: 90px;
+        }
+
+        h2 {
+            height: 90px;
+            color: #4d4d4d;
+            font-size: 32px;
+            line-height: 38px;
+            font-weight: 400;
+
+        }
+
+        h3 {
+            font-size: 18px;
+            line-height: 22px;
+            height: 45px;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            font-weight: 200;
+
+        }
+
+        p {
+            font-size: 18px;
+            color: #b3b3b3;
+            line-height: 22px;
+            font-weight: 400;
+            font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+
+        .lorem {
+            text-align: center;
+            width: 47%;
+            font-size: 18px;
+            line-height: 30px;
+            color: #4d4d4d;
+        }
+    }
+}
+
+#companyAbout {
+    width: 100%;
+    min-height: 654px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #393E46;
+
+    .company {
+        display: flex;
+
+        .CompanyAbout {
+            h2 {
+                color: white;
+                font-size: 18px;
+                font-weight: 400;
+                height: 40px;
+            }
+
+            p {
+                cursor: pointer;
+                font-size: 16px;
+                color: rgb(204, 204, 204);
+                font-weight: 500;
+                font-family: Arial, Helvetica, sans-serif;
+                transition: .3s all ease;
+                font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+       
+            }
+        }
+    }
+
+    .UsaEurope {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+
+
+        .Europe {
+            h3 {
+
+                color: white;
+                font-size: 18px;
+                font-weight: 400;
+                height: 40px;
+
+            }
+
+            .EuropeTxt {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .japsonStreet {
+                    width: 26%;
+                    font-size: 16px;
+                    height: 80px;
+                    color: rgb(204, 204, 204);
+                    font-weight: 500;
+                    font-family: Arial, Helvetica, sans-serif;
+                    transition: .3s all ease;
+                    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                }
+
+                .carlStreet {
+                    font-size: 16px;
+                    height: 50px;
+                    width: 31%;
+                    color:  rgba(255, 255, 255, 0.4);
+                    font-weight: 500;
+                    font-family: Arial, Helvetica, sans-serif;
+                    transition: .3s all ease;
+                    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                }
+
+                .telMail {
+                    width: 50%;
+                    font-size: 16px;
+                    color: rgba(255, 255, 255, 0.4);
+                    font-weight: 500;
+                    font-family: Arial, Helvetica, sans-serif;
+                    transition: .3s all ease;
+                    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                }
+            }
+        }
+
+    }
+    .createdYear {
+        width: 100%;
+        height: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            height: 25%;
+            display: flex;
+            align-items: end;
+            gap: 3px;
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.4);
+            font-weight: 300;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: .3s all ease;
+            font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+            i {
+                height: 40%;
+                display: flex;
+                align-items: center;
+
+
+            }
+
+            a {
+                text-decoration: none;
+                font-family: poppins;
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 300;
+                color:rgba(255, 255, 255, 0.448);
+                cursor: pointer;
+
+            }
+        }
+
+    }
+}
